@@ -204,8 +204,9 @@ handleCancel(e){
   <br/>
        <Row type="flex" justify="center">
          <Col>
-         <h1>Welcome Admin</h1>
+         <h1>Welcome Admin</h1><br/>
          <Button type="info" shape="circle" className="btn"><Icon type="plus"/></Button> Add Shoe
+         <br/>
          <br/>
          </Col>
          </Row>
