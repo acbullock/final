@@ -59,7 +59,7 @@ class Detail extends Component {
     
     // alert(JSON.stringify(updated, null, 2));
     API.update(updated);
-    alert("added to cart");
+    // alert("added to cart");
   };
   // When this component mounts, grab the book with the _id of this.props.match.params.id
   // e.g. localhost:3000/books/599dcb67f0f16317844583fc
@@ -153,38 +153,7 @@ class Detail extends Component {
       </Row>
 
     </div>
-      // <Container fluid>
-      //   
-      //   <Row>
-      //     <Col size="md-6">
-            
-              
-      //         <Carousel>
-      //           {this.state.images}
-      //         </Carousel>
-              
-            
-      //     </Col>
-      //     <Col size="md-6">
-            
-      //       <h1>{this.state.shoe.price}</h1>
-      //         <p>
-      //           {this.state.shoe.synopsis}
-      //         </p>
-      //         <div className="mb-5">
-      //         <h3>Available Sizes:</h3>
-              
-      //         <select className="custom-select mr-5" style={{"height":"50px"}}>
-      //           {this.state.sizes}
-      //         </select>
-      //         <button className="btn btn-warning" onClick={this.addToCart}>Add To Cart!</button>
-      //         </div>
-      //         <div><Link to="/">← Back to Shoes</Link></div>
-              
-      //     </Col>
-      //   </Row>
-       
-      // </Container>
+      
     );
   }
 }
